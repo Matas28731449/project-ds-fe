@@ -7,26 +7,42 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
-  <link rel="stylesheet" href="styles/general.css">
-  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/header.css">
   <title>project-ds</title>
 </head>
 <body>
-  <!-- HEADER -->
-  <div class="header">
-    <div class="left-section">
+  <header>
+    <div class="branding left-section">
       <img class="logo" src="/">
-      <div class="brand">project-ds</div>
+      <div class="name">project-ds</div>
     </div>
-    <div class="middle-section">
-      <div class="knitwear">Mezginiai</div>
-      <div class="knit-yourself">Nusimegzk pats</div>
-      <div class="about-us">Apie mus</div>
-      <div class="contact">Susisiekite</div>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
     </div>
+    <nav class="navbar middle-section">
+      <ul>
+        <li>
+          <a href="#">Mezginiai</a>
+        </li>
+        <li>
+          <a href="#">Nusimegzk pats</a>
+        </li>
+        <li>
+          <a href="#">Apie mus</a>
+        </li>
+        <li>
+          <a href="#">Susisiekite</a>
+        </li>
+      </ul>
+    </nav>
     <div class="right-section">
-      <img class="bag-icon" src="icons/bag.png">
+      <img class="shopping-bag" src="/">
     </div>
-  </div>
+  </header>
+
+  <script src="js/navbar.js"></script>
 </body>
 </html>
