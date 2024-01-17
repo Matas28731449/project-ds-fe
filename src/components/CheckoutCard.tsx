@@ -22,12 +22,16 @@ const CheckoutCard = () => {
   return (
     <div className="border rounded px-6 py-8 flex items-start h-min">
       <div className="w-[150px] h-[120px]">
-        <img className="border rounded" src={checkout.imageUrl} alt={`${checkout.title} image`} />
+        <img
+          className="border rounded"
+          src={checkout.imageUrl}
+          alt={`${checkout.title} image`}
+        />
       </div>
       <div className="flex flew-grow flex-col">
         <div className="pl-4">
-            <h3 className="text-2xl font-bold">{checkout.title}</h3>
-            <p className="text-gray-900">{checkout.description}</p>
+          <h3 className="text-2xl font-bold">{checkout.title}</h3>
+          <p className="text-gray-900">{checkout.description}</p>
         </div>
       </div>
       <div>
